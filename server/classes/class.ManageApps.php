@@ -62,7 +62,8 @@
                                 Название -> '.$result[0]['app_name'].' <br> 
                                 Пакет -> '.$result[0]['package'].' <br>
                                 Приоритет -> '.$result[0]['priority'].' <br>
-                                Цена -> '.$result[0]['price'].' <br>';
+                                Цена -> '.$result[0]['price'].' <br>
+                                Колличество установок -> '.$result[0]['installs'].' <br>';
                                 
                                 $query = $this->link->prepare('INSERT INTO u731614038_db.logs (log_date, log_author, description) VALUES (?,?,?)');
                                     
