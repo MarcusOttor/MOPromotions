@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3ad87d9-6eb5-4db5-808b-96cc87a6b0cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/classes/class.ManageApps.php" afterPath="$PROJECT_DIR$/server/classes/class.ManageApps.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/index.php" afterPath="$PROJECT_DIR$/server/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.ManageApps.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class.ManageApps.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/classes/class.ManageApps.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -39,6 +37,18 @@
                 <marker date="1504546765860" expanded="true" signature="1655:1704" ph="SELECT * FRO... apps" />
                 <marker date="1504546765860" expanded="true" signature="2565:2646" ph="INSERT INTO u731614038_db.logs... " />
                 <marker date="1504546765860" expanded="true" signature="2939:2986" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="780" column="23" lean-forward="true" selection-start-line="780" selection-start-column="23" selection-end-line="780" selection-end-column="23" />
+              <folding>
+                <marker date="1504546909504" expanded="false" signature="37310:37317" ph="×" />
               </folding>
             </state>
           </provider>
@@ -60,6 +70,9 @@
     <findStrings>
       <find>installations</find>
     </findStrings>
+    <replaceStrings>
+      <replace>installs</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,6 +83,7 @@
         <option value="$PROJECT_DIR$/server/app_storage.php" />
         <option value="$PROJECT_DIR$/server/increaser.php" />
         <option value="$PROJECT_DIR$/server/classes/class.ManageApps.php" />
+        <option value="$PROJECT_DIR$/server/index.php" />
       </list>
     </option>
   </component>
@@ -115,12 +129,6 @@
               <item name="MyOffers" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="MyOffers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyOffers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -157,12 +165,12 @@
       <workItem from="1504365505264" duration="3179000" />
       <workItem from="1504419089506" duration="1671000" />
       <workItem from="1504420894129" duration="8000" />
-      <workItem from="1504546607683" duration="158000" />
+      <workItem from="1504546607683" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5016000" />
+    <option name="totallyTimeSpent" value="5160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -261,14 +269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/app_storage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -298,6 +298,16 @@
             <marker date="1504546765860" expanded="true" signature="1655:1704" ph="SELECT * FRO... apps" />
             <marker date="1504546765860" expanded="true" signature="2565:2646" ph="INSERT INTO u731614038_db.logs... " />
             <marker date="1504546765860" expanded="true" signature="2939:2986" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="780" column="23" lean-forward="true" selection-start-line="780" selection-start-column="23" selection-end-line="780" selection-end-column="23" />
+          <folding>
+            <marker date="1504546909504" expanded="false" signature="37310:37317" ph="×" />
           </folding>
         </state>
       </provider>

@@ -784,7 +784,7 @@
                     <td><?php echo $value['package']; ?></td>
                     <td><?php echo $value['priority']; ?></td>
                     <td><?php echo $value['price']; ?></td>
-                    <td><?php echo $value['installations']; ?></td>
+                    <td><?php echo $value['installs']; ?></td>
                     <td><?php echo $value['keywords']; ?></td>
                     <td>
                         <button class="btn btn-outline-primary " type="button" data-toggle="modal" data-target="#viewApp<?php echo $value['id']; ?>"><img src="images/eye%20(1).png" height="20px" width="20px"></button>
@@ -818,7 +818,7 @@
                                         </div>
                                         <div class="modal-body">
                                             <b>Количество установок:</b>
-                                            <?php echo $value['installations']; ?>
+                                            <?php echo $value['installs']; ?>
                                         </div> 
                                         <div class="modal-body">
                                             <b>Ключевые слова:</b>
