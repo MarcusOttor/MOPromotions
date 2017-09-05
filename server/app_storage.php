@@ -22,7 +22,7 @@
             echo $query->num_rows;
             while ($row = $query->fetch_assoc()) {
                 $fact_price = ($price * $row['priority'] / 10);
-                $res_str .= $row['app_name'] . '+|-|+' . $row['package'] . '+|-|+' . $row['keywords'] . '+|-|+' . $fact_price . '+-+' . base64_encode($row['image']) . '||@\|/@||';
+                $res_str .= $row['app_name'] . '+|-|+' . $row['package'] . '+|-|+' . $row['keywords'] . '+|-|+' . $fact_price . '+|-|+' . base64_encode($row['image']) . '||@\|/@||';
             }
 
             if (strlen($res_str) > 0) {
